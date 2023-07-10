@@ -61,6 +61,7 @@ struct HomeTab: View {
                         .padding(.bottom,22)
                     
                     CustomButton(animation: animation, selectedOption: $selectedOption)
+                        .padding(.bottom,14)
                    
                     promotion()
                         .padding(.horizontal,28)
@@ -96,7 +97,7 @@ struct HomeTab: View {
     }
     
     @ViewBuilder func promotion() -> some View {
-        VStack(alignment: .leading){
+        VStack(alignment: .leading,spacing: 4){
             Text("Promotion")
                 .font(.poppinsRegularFont(size: 24))
                 .foregroundColor(.black101010)
@@ -143,7 +144,8 @@ struct HomeTab: View {
     }
     
     @ViewBuilder func popular() -> some View {
-        VStack(alignment: .leading){
+        VStack(alignment: .leading,spacing: 4){
+
             Text("Popular")
                 .font(.poppinsRegularFont(size: 24))
                 .foregroundColor(.black101010)
