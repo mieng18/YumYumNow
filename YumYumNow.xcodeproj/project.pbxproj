@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CABFE8052A5B856000FA80EE /* YumYumNowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE8042A5B856000FA80EE /* YumYumNowApp.swift */; };
+		CABFE8072A5B856000FA80EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE8062A5B856000FA80EE /* ContentView.swift */; };
+		CABFE8092A5B856200FA80EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABFE8082A5B856200FA80EE /* Assets.xcassets */; };
+		CABFE80C2A5B856200FA80EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABFE80B2A5B856200FA80EE /* Preview Assets.xcassets */; };
+		CABFE8162A5B856200FA80EE /* YumYumNowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE8152A5B856200FA80EE /* YumYumNowTests.swift */; };
+		CABFE8202A5B856200FA80EE /* YumYumNowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE81F2A5B856200FA80EE /* YumYumNowUITests.swift */; };
+		CABFE8222A5B856200FA80EE /* YumYumNowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE8212A5B856200FA80EE /* YumYumNowUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CABFE8122A5B856200FA80EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABFE7F92A5B856000FA80EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABFE8002A5B856000FA80EE;
+			remoteInfo = YumYumNow;
+		};
+		CABFE81C2A5B856200FA80EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABFE7F92A5B856000FA80EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABFE8002A5B856000FA80EE;
+			remoteInfo = YumYumNow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CABFE8012A5B856000FA80EE /* YumYumNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YumYumNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABFE8042A5B856000FA80EE /* YumYumNowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumYumNowApp.swift; sourceTree = "<group>"; };
+		CABFE8062A5B856000FA80EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CABFE8082A5B856200FA80EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CABFE80B2A5B856200FA80EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CABFE8112A5B856200FA80EE /* YumYumNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YumYumNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABFE8152A5B856200FA80EE /* YumYumNowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumYumNowTests.swift; sourceTree = "<group>"; };
+		CABFE81B2A5B856200FA80EE /* YumYumNowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YumYumNowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABFE81F2A5B856200FA80EE /* YumYumNowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumYumNowUITests.swift; sourceTree = "<group>"; };
+		CABFE8212A5B856200FA80EE /* YumYumNowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumYumNowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CABFE7FE2A5B856000FA80EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABFE80E2A5B856200FA80EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABFE8182A5B856200FA80EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CABFE7F82A5B856000FA80EE = {
+			isa = PBXGroup;
+			children = (
+				CABFE8032A5B856000FA80EE /* YumYumNow */,
+				CABFE8142A5B856200FA80EE /* YumYumNowTests */,
+				CABFE81E2A5B856200FA80EE /* YumYumNowUITests */,
+				CABFE8022A5B856000FA80EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CABFE8022A5B856000FA80EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CABFE8012A5B856000FA80EE /* YumYumNow.app */,
+				CABFE8112A5B856200FA80EE /* YumYumNowTests.xctest */,
+				CABFE81B2A5B856200FA80EE /* YumYumNowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CABFE8032A5B856000FA80EE /* YumYumNow */ = {
+			isa = PBXGroup;
+			children = (
+				CABFE8302A5B857200FA80EE /* View Model */,
+				CABFE82F2A5B856E00FA80EE /* Model */,
+				CABFE82E2A5B856900FA80EE /* View */,
+				CABFE8042A5B856000FA80EE /* YumYumNowApp.swift */,
+				CABFE8062A5B856000FA80EE /* ContentView.swift */,
+				CABFE8082A5B856200FA80EE /* Assets.xcassets */,
+				CABFE80A2A5B856200FA80EE /* Preview Content */,
+			);
+			path = YumYumNow;
+			sourceTree = "<group>";
+		};
+		CABFE80A2A5B856200FA80EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CABFE80B2A5B856200FA80EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CABFE8142A5B856200FA80EE /* YumYumNowTests */ = {
+			isa = PBXGroup;
+			children = (
+				CABFE8152A5B856200FA80EE /* YumYumNowTests.swift */,
+			);
+			path = YumYumNowTests;
+			sourceTree = "<group>";
+		};
+		CABFE81E2A5B856200FA80EE /* YumYumNowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CABFE81F2A5B856200FA80EE /* YumYumNowUITests.swift */,
+				CABFE8212A5B856200FA80EE /* YumYumNowUITestsLaunchTests.swift */,
+			);
+			path = YumYumNowUITests;
+			sourceTree = "<group>";
+		};
+		CABFE82E2A5B856900FA80EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CABFE82F2A5B856E00FA80EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CABFE8302A5B857200FA80EE /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CABFE8002A5B856000FA80EE /* YumYumNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABFE8252A5B856200FA80EE /* Build configuration list for PBXNativeTarget "YumYumNow" */;
+			buildPhases = (
+				CABFE7FD2A5B856000FA80EE /* Sources */,
+				CABFE7FE2A5B856000FA80EE /* Frameworks */,
+				CABFE7FF2A5B856000FA80EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YumYumNow;
+			productName = YumYumNow;
+			productReference = CABFE8012A5B856000FA80EE /* YumYumNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CABFE8102A5B856200FA80EE /* YumYumNowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABFE8282A5B856200FA80EE /* Build configuration list for PBXNativeTarget "YumYumNowTests" */;
+			buildPhases = (
+				CABFE80D2A5B856200FA80EE /* Sources */,
+				CABFE80E2A5B856200FA80EE /* Frameworks */,
+				CABFE80F2A5B856200FA80EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABFE8132A5B856200FA80EE /* PBXTargetDependency */,
+			);
+			name = YumYumNowTests;
+			productName = YumYumNowTests;
+			productReference = CABFE8112A5B856200FA80EE /* YumYumNowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CABFE81A2A5B856200FA80EE /* YumYumNowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABFE82B2A5B856200FA80EE /* Build configuration list for PBXNativeTarget "YumYumNowUITests" */;
+			buildPhases = (
+				CABFE8172A5B856200FA80EE /* Sources */,
+				CABFE8182A5B856200FA80EE /* Frameworks */,
+				CABFE8192A5B856200FA80EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABFE81D2A5B856200FA80EE /* PBXTargetDependency */,
+			);
+			name = YumYumNowUITests;
+			productName = YumYumNowUITests;
+			productReference = CABFE81B2A5B856200FA80EE /* YumYumNowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CABFE7F92A5B856000FA80EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CABFE8002A5B856000FA80EE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CABFE8102A5B856200FA80EE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CABFE8002A5B856000FA80EE;
+					};
+					CABFE81A2A5B856200FA80EE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CABFE8002A5B856000FA80EE;
+					};
+				};
+			};
+			buildConfigurationList = CABFE7FC2A5B856000FA80EE /* Build configuration list for PBXProject "YumYumNow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CABFE7F82A5B856000FA80EE;
+			productRefGroup = CABFE8022A5B856000FA80EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABFE8002A5B856000FA80EE /* YumYumNow */,
+				CABFE8102A5B856200FA80EE /* YumYumNowTests */,
+				CABFE81A2A5B856200FA80EE /* YumYumNowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CABFE7FF2A5B856000FA80EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABFE80C2A5B856200FA80EE /* Preview Assets.xcassets in Resources */,
+				CABFE8092A5B856200FA80EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABFE80F2A5B856200FA80EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABFE8192A5B856200FA80EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CABFE7FD2A5B856000FA80EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABFE8072A5B856000FA80EE /* ContentView.swift in Sources */,
+				CABFE8052A5B856000FA80EE /* YumYumNowApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABFE80D2A5B856200FA80EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABFE8162A5B856200FA80EE /* YumYumNowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABFE8172A5B856200FA80EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABFE8202A5B856200FA80EE /* YumYumNowUITests.swift in Sources */,
+				CABFE8222A5B856200FA80EE /* YumYumNowUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CABFE8132A5B856200FA80EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABFE8002A5B856000FA80EE /* YumYumNow */;
+			targetProxy = CABFE8122A5B856200FA80EE /* PBXContainerItemProxy */;
+		};
+		CABFE81D2A5B856200FA80EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABFE8002A5B856000FA80EE /* YumYumNow */;
+			targetProxy = CABFE81C2A5B856200FA80EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CABFE8232A5B856200FA80EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CABFE8242A5B856200FA80EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CABFE8262A5B856200FA80EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YumYumNow/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainguyen.YumYumNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CABFE8272A5B856200FA80EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YumYumNow/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainguyen.YumYumNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CABFE8292A5B856200FA80EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainguyen.YumYumNowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YumYumNow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YumYumNow";
+			};
+			name = Debug;
+		};
+		CABFE82A2A5B856200FA80EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainguyen.YumYumNowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YumYumNow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YumYumNow";
+			};
+			name = Release;
+		};
+		CABFE82C2A5B856200FA80EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainguyen.YumYumNowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YumYumNow;
+			};
+			name = Debug;
+		};
+		CABFE82D2A5B856200FA80EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainguyen.YumYumNowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YumYumNow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CABFE7FC2A5B856000FA80EE /* Build configuration list for PBXProject "YumYumNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABFE8232A5B856200FA80EE /* Debug */,
+				CABFE8242A5B856200FA80EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABFE8252A5B856200FA80EE /* Build configuration list for PBXNativeTarget "YumYumNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABFE8262A5B856200FA80EE /* Debug */,
+				CABFE8272A5B856200FA80EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABFE8282A5B856200FA80EE /* Build configuration list for PBXNativeTarget "YumYumNowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABFE8292A5B856200FA80EE /* Debug */,
+				CABFE82A2A5B856200FA80EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABFE82B2A5B856200FA80EE /* Build configuration list for PBXNativeTarget "YumYumNowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABFE82C2A5B856200FA80EE /* Debug */,
+				CABFE82D2A5B856200FA80EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CABFE7F92A5B856000FA80EE /* Project object */;
+}
