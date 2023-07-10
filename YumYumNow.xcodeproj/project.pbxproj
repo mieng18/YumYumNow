@@ -20,6 +20,9 @@
 		CABFE83C2A5B87CE00FA80EE /* CartTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE83B2A5B87CE00FA80EE /* CartTab.swift */; };
 		CABFE83E2A5B87D600FA80EE /* ProfileTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE83D2A5B87D600FA80EE /* ProfileTab.swift */; };
 		CABFE8412A5B88D200FA80EE /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE8402A5B88D100FA80EE /* Color+Extensions.swift */; };
+		CABFE8432A5B8D1B00FA80EE /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE8422A5B8D1B00FA80EE /* SplashScreen.swift */; };
+		CABFE8452A5B902A00FA80EE /* font-poppins in Resources */ = {isa = PBXBuildFile; fileRef = CABFE8442A5B902900FA80EE /* font-poppins */; };
+		CABFE8482A5B917300FA80EE /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE8472A5B917300FA80EE /* Font+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,10 @@
 		CABFE83B2A5B87CE00FA80EE /* CartTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTab.swift; sourceTree = "<group>"; };
 		CABFE83D2A5B87D600FA80EE /* ProfileTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTab.swift; sourceTree = "<group>"; };
 		CABFE8402A5B88D100FA80EE /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		CABFE8422A5B8D1B00FA80EE /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		CABFE8442A5B902900FA80EE /* font-poppins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "font-poppins"; sourceTree = "<group>"; };
+		CABFE8462A5B90F000FA80EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CABFE8472A5B917300FA80EE /* Font+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +113,8 @@
 		CABFE8032A5B856000FA80EE /* YumYumNow */ = {
 			isa = PBXGroup;
 			children = (
+				CABFE8462A5B90F000FA80EE /* Info.plist */,
+				CABFE8442A5B902900FA80EE /* font-poppins */,
 				CABFE83F2A5B88BC00FA80EE /* Extensions */,
 				CABFE8302A5B857200FA80EE /* View Model */,
 				CABFE82F2A5B856E00FA80EE /* Model */,
@@ -151,6 +160,7 @@
 				CABFE8382A5B87AF00FA80EE /* SearchTab.swift */,
 				CABFE83B2A5B87CE00FA80EE /* CartTab.swift */,
 				CABFE83D2A5B87D600FA80EE /* ProfileTab.swift */,
+				CABFE8422A5B8D1B00FA80EE /* SplashScreen.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -173,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				CABFE8402A5B88D100FA80EE /* Color+Extensions.swift */,
+				CABFE8472A5B917300FA80EE /* Font+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -283,6 +294,7 @@
 			files = (
 				CABFE80C2A5B856200FA80EE /* Preview Assets.xcassets in Resources */,
 				CABFE8092A5B856200FA80EE /* Assets.xcassets in Resources */,
+				CABFE8452A5B902A00FA80EE /* font-poppins in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +319,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CABFE8432A5B8D1B00FA80EE /* SplashScreen.swift in Sources */,
 				CABFE8372A5B87A600FA80EE /* HomeTab.swift in Sources */,
+				CABFE8482A5B917300FA80EE /* Font+Extensions.swift in Sources */,
 				CABFE8072A5B856000FA80EE /* ContentView.swift in Sources */,
 				CABFE8352A5B879600FA80EE /* TabBarView.swift in Sources */,
 				CABFE8412A5B88D200FA80EE /* Color+Extensions.swift in Sources */,
@@ -475,6 +489,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"YumYumNow/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YumYumNow/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -503,6 +519,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"YumYumNow/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YumYumNow/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

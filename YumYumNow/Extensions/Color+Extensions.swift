@@ -26,6 +26,11 @@ extension Color {
     
     static let purple462B9C = Color(0x462B9C)
     static let whiteFFFEFE = Color(0xFFFEFE)
+    static let radient1 = Color(0x644AB5)
+    static let radient2 = Color(0x482D9E)
+
+
+    
 
 
 }
