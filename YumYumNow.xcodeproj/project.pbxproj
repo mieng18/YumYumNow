@@ -14,6 +14,12 @@
 		CABFE8162A5B856200FA80EE /* YumYumNowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE8152A5B856200FA80EE /* YumYumNowTests.swift */; };
 		CABFE8202A5B856200FA80EE /* YumYumNowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE81F2A5B856200FA80EE /* YumYumNowUITests.swift */; };
 		CABFE8222A5B856200FA80EE /* YumYumNowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE8212A5B856200FA80EE /* YumYumNowUITestsLaunchTests.swift */; };
+		CABFE8352A5B879600FA80EE /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE8342A5B879600FA80EE /* TabBarView.swift */; };
+		CABFE8372A5B87A600FA80EE /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE8362A5B87A600FA80EE /* HomeTab.swift */; };
+		CABFE8392A5B87AF00FA80EE /* SearchTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE8382A5B87AF00FA80EE /* SearchTab.swift */; };
+		CABFE83C2A5B87CE00FA80EE /* CartTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE83B2A5B87CE00FA80EE /* CartTab.swift */; };
+		CABFE83E2A5B87D600FA80EE /* ProfileTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE83D2A5B87D600FA80EE /* ProfileTab.swift */; };
+		CABFE8412A5B88D200FA80EE /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABFE8402A5B88D100FA80EE /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		CABFE81B2A5B856200FA80EE /* YumYumNowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YumYumNowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABFE81F2A5B856200FA80EE /* YumYumNowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumYumNowUITests.swift; sourceTree = "<group>"; };
 		CABFE8212A5B856200FA80EE /* YumYumNowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumYumNowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CABFE8342A5B879600FA80EE /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		CABFE8362A5B87A600FA80EE /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		CABFE8382A5B87AF00FA80EE /* SearchTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTab.swift; sourceTree = "<group>"; };
+		CABFE83B2A5B87CE00FA80EE /* CartTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTab.swift; sourceTree = "<group>"; };
+		CABFE83D2A5B87D600FA80EE /* ProfileTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTab.swift; sourceTree = "<group>"; };
+		CABFE8402A5B88D100FA80EE /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +106,7 @@
 		CABFE8032A5B856000FA80EE /* YumYumNow */ = {
 			isa = PBXGroup;
 			children = (
+				CABFE83F2A5B88BC00FA80EE /* Extensions */,
 				CABFE8302A5B857200FA80EE /* View Model */,
 				CABFE82F2A5B856E00FA80EE /* Model */,
 				CABFE82E2A5B856900FA80EE /* View */,
@@ -133,6 +146,11 @@
 		CABFE82E2A5B856900FA80EE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CABFE8342A5B879600FA80EE /* TabBarView.swift */,
+				CABFE8362A5B87A600FA80EE /* HomeTab.swift */,
+				CABFE8382A5B87AF00FA80EE /* SearchTab.swift */,
+				CABFE83B2A5B87CE00FA80EE /* CartTab.swift */,
+				CABFE83D2A5B87D600FA80EE /* ProfileTab.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -149,6 +167,14 @@
 			children = (
 			);
 			path = "View Model";
+			sourceTree = "<group>";
+		};
+		CABFE83F2A5B88BC00FA80EE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CABFE8402A5B88D100FA80EE /* Color+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,8 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CABFE8372A5B87A600FA80EE /* HomeTab.swift in Sources */,
 				CABFE8072A5B856000FA80EE /* ContentView.swift in Sources */,
+				CABFE8352A5B879600FA80EE /* TabBarView.swift in Sources */,
+				CABFE8412A5B88D200FA80EE /* Color+Extensions.swift in Sources */,
+				CABFE83E2A5B87D600FA80EE /* ProfileTab.swift in Sources */,
+				CABFE8392A5B87AF00FA80EE /* SearchTab.swift in Sources */,
 				CABFE8052A5B856000FA80EE /* YumYumNowApp.swift in Sources */,
+				CABFE83C2A5B87CE00FA80EE /* CartTab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
