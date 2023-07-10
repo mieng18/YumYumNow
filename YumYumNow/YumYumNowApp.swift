@@ -11,7 +11,7 @@ import SwiftUI
 struct YumYumNowApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
         }
     }
 }
