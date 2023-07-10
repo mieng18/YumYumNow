@@ -32,12 +32,7 @@ struct SplashView: View {
                         .padding(.top,20)
                     
                     Button(action:{
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
-                            withAnimation {
-                                self.isActive = true
-                            }
-                        }
-
+                       
                     }
                         
                     ) {
@@ -57,6 +52,14 @@ struct SplashView: View {
                 }
                
             }
+        }
+        .onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now()) {
+                withAnimation {
+                    self.isActive = true
+                }
+            }
+
         }
 
     }
