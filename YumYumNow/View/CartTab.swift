@@ -93,13 +93,16 @@ struct CartTab: View {
                 Text("Back to Menu")
                     .font(.poppinsRegularFont(size: 18))
                     .foregroundColor(.black303030)
+                    .padding(.bottom,20)
+
 
                    
             }
-            .padding(.bottom,12)
-           
+
+
         }
         .frame(width: UIScreen.main.bounds.width)
+
     }
     
 
@@ -210,6 +213,7 @@ struct AddedItem: View {
             
             
             Button {
+                
                 
             } label: {
                 Image("highlight-off")
