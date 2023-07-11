@@ -34,6 +34,8 @@ enum SelectedOption: String, CaseIterable {
 struct HomeTab: View {
     @State var searchInput: String = ""
     @State var selectedOption: SelectedOption = SelectedOption.all
+    @State var showDetailView: Bool = false
+    @State var currentDetailFood: Food?
 
     @Namespace var animation
     var body: some View {
@@ -77,6 +79,12 @@ struct HomeTab: View {
             .padding(.top,15)
         }
         .frame(width: UIScreen.main.bounds.width)
+        .overlay {
+            if let currentDetailFood,showDetailView{
+                DetailView(showView: $showDetailView, animation: animation, food: currentDetailFood)
+                    .transition(.asymmetric(insertion: .identity, removal: .offset(x: 0.5)))
+            }
+        }
 
     }
     
@@ -130,6 +138,7 @@ struct HomeTab: View {
                         .scaledToFit()
                         .frame(width: 107,height: 107)
                         .clipShape(RoundedRectangle(cornerRadius: 17))
+                    
 
                 }
                 .frame(maxWidth: .infinity)
@@ -161,9 +170,23 @@ struct HomeTab: View {
                              .frame(width: 161, height: 214)
                              
                         VStack {
-                            Image("burger_sandwich1")
-                                .scaledToFill()
-                                .frame(width: 130,height: 98.77)
+                
+
+                            VStack{
+                                if currentDetailFood?.id == foods[0].id && showDetailView{
+                                    Rectangle()
+                                        .fill(.clear)
+                                }else{
+                                    Image("burger_sandwich1")
+                                        .scaledToFill()
+                                        .frame(width: 130,height: 98.77)
+                                        .matchedGeometryEffect(id: foods[0].id, in: animation)
+                                        .zIndex(1)
+                                }
+                            }
+                            .zIndex(1)
+
+
                             
                             VStack{
                                 Text("Beef Burger")
@@ -187,12 +210,22 @@ struct HomeTab: View {
                                 }
                             }
                             .padding(.horizontal,35)
+                            .zIndex(0)
+
+                            
                             
                         }
                         .padding(.bottom,12)
+                       
 
                          
                     }
+                    .onTapGesture {
+                        currentDetailFood = foods[0]
+                        showDetailView = true
+                        hideTabBar()
+                    }
+
                     
                     Spacer()
                     
@@ -211,6 +244,7 @@ struct HomeTab: View {
                                .scaledToFill()
                                .frame(width: 130,height: 130)
                                .clipped()
+                            
                             
 
                             VStack{
@@ -240,6 +274,12 @@ struct HomeTab: View {
                         }
                         
                     }
+                    .zIndex(1)
+                    .onTapGesture {
+                        currentDetailFood = foods[1]
+                        showDetailView = true
+                    }
+
                     
                 }
                 
@@ -264,31 +304,7 @@ struct CustomButton: View {
     @Binding var selectedOption: SelectedOption
     
     var body: some View{
-//
-//        Button(action: {
-//            withAnimation(.easeInOut){
-//                selectedOption = selectedOption
-//            }
-//        }, label: {
-//            VStack{
-//                Rectangle()
-//                    .frame(width: 80,height: 80)
-//                    .foregroundColor(.grayEFEEEE)
-//                    .cornerRadius(20)
-//                    .overlay(
-//                        Image(image)
-//                            .scaledToFit()
-//                            .frame(width: 70,height: 70)
-//                    )
-//
-//                Text(selectedOption)
-//                    .font(.poppinsRegularFont(size: 17))
-//
-//            }
-//
-//        })
-        
-        
+
         HStack(spacing:18){
            
             VStack{

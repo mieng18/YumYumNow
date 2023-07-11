@@ -11,12 +11,16 @@ struct TabBarView: View {
     @State private var selectedTab: Tab = .first
     @State private var oldSelectedTab: Tab = .first
     @Namespace var animation
+    @State var showTabBar: Bool = true
 
-    @State var presentingCamera = false
-
-    init() {
+    
+    init(){
+        // MARK: For Hiding Native Tab Bar
+        // As of Xcode 14.1 Beta .toolbar(.hidden) is broken for Native SwiftUI TabView
         UITabBar.appearance().isHidden = true
     }
+
+   
 
     var body: some View {
         ZStack(alignment:.bottom) {
@@ -42,15 +46,18 @@ struct TabBarView: View {
                         .setTabBarBackground(color: .whiteFFFEFE)
 
                 }
-                .onChange(of: selectedTab) {    // SwiftUI 2.0 track changes
-                    if selectedTab == .third {
-                        self.presentingCamera = true
-                        } else {
-                            self.oldSelectedTab = $0
-                        }
-                    }
-              
+      
             CutomTabBarView(selectedTab: $selectedTab)
+                .offset(y: showTabBar ? 0 : 130)
+                .animation(.interactiveSpring(response: 0.6, dampingFraction: 0.7, blendDuration: 0.7), value: showTabBar)
+            }
+            .ignoresSafeArea(.keyboard, edges: .bottom)
+            // Instead Of Passing Reference We're Going to Use NotificationCenter to Post Notification
+            .onReceive(NotificationCenter.default.publisher(for: .init("SHOWTABBAR"))) { _ in
+                showTabBar = true
+            }
+            .onReceive(NotificationCenter.default.publisher(for: .init("HIDETABBAR"))) { _ in
+                showTabBar = false
             }
 
         }
