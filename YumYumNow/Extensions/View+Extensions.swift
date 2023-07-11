@@ -18,7 +18,7 @@ extension View{
     }
     
     @ViewBuilder
-    func setCustomTabBarBackground(color: Color)->some View{
+    func setdTabBarBackground(color: Color)->some View{
         self
             .frame(maxWidth: .infinity,maxHeight: .infinity)
             .background {
