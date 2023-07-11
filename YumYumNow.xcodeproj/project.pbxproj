@@ -32,6 +32,7 @@
 		CAD6B6892A5CCC3500B5321D /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD6B6882A5CCC3500B5321D /* Food.swift */; };
 		CAD6B68B2A5CCED700B5321D /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD6B68A2A5CCED700B5321D /* CustomCorner.swift */; };
 		CAD6B68D2A5CCF1F00B5321D /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD6B68C2A5CCF1F00B5321D /* View+Extensions.swift */; };
+		CAD6B6912A5DD3D100B5321D /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAD6B6902A5DD3D100B5321D /* Inter-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		CAD6B6882A5CCC3500B5321D /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		CAD6B68A2A5CCED700B5321D /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
 		CAD6B68C2A5CCF1F00B5321D /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		CAD6B6902A5DD3D100B5321D /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,13 +133,9 @@
 		CABFE8032A5B856000FA80EE /* YumYumNow */ = {
 			isa = PBXGroup;
 			children = (
+				CAD6B68F2A5DD3B800B5321D /* Inter-Font */,
+				CAD6B68E2A5DD3A000B5321D /* Poppins-Font */,
 				CABFE8462A5B90F000FA80EE /* Info.plist */,
-				CABFE84B2A5B969900FA80EE /* Poppins-Bold.ttf */,
-				CABFE84F2A5B969900FA80EE /* Poppins-Light.ttf */,
-				CABFE84C2A5B969900FA80EE /* Poppins-Medium.ttf */,
-				CABFE84E2A5B969900FA80EE /* Poppins-Regular.ttf */,
-				CABFE84D2A5B969900FA80EE /* Poppins-SemiBold.ttf */,
-				CABFE8502A5B969900FA80EE /* Poppins-Thin.ttf */,
 				CABFE83F2A5B88BC00FA80EE /* Extensions */,
 				CABFE8302A5B857200FA80EE /* View Model */,
 				CABFE82F2A5B856E00FA80EE /* Model */,
@@ -213,6 +211,27 @@
 				CAD6B68C2A5CCF1F00B5321D /* View+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CAD6B68E2A5DD3A000B5321D /* Poppins-Font */ = {
+			isa = PBXGroup;
+			children = (
+				CABFE84F2A5B969900FA80EE /* Poppins-Light.ttf */,
+				CABFE84C2A5B969900FA80EE /* Poppins-Medium.ttf */,
+				CABFE84E2A5B969900FA80EE /* Poppins-Regular.ttf */,
+				CABFE84D2A5B969900FA80EE /* Poppins-SemiBold.ttf */,
+				CABFE8502A5B969900FA80EE /* Poppins-Thin.ttf */,
+				CABFE84B2A5B969900FA80EE /* Poppins-Bold.ttf */,
+			);
+			path = "Poppins-Font";
+			sourceTree = "<group>";
+		};
+		CAD6B68F2A5DD3B800B5321D /* Inter-Font */ = {
+			isa = PBXGroup;
+			children = (
+				CAD6B6902A5DD3D100B5321D /* Inter-Medium.ttf */,
+			);
+			path = "Inter-Font";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +346,7 @@
 				CABFE8562A5B969900FA80EE /* Poppins-Thin.ttf in Resources */,
 				CABFE8512A5B969900FA80EE /* Poppins-Bold.ttf in Resources */,
 				CABFE8092A5B856200FA80EE /* Assets.xcassets in Resources */,
+				CAD6B6912A5DD3D100B5321D /* Inter-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,8 +16,8 @@ extension Font {
     static var PoppinsFontRegular = "Poppins-Regular"
     static var PoppinsFontSemiBold = "Poppins-SemiBold"
     static var PoppinsFontThin = "Poppins-Thin"
-
-
+    
+    static var InterFontMedium = "Inter-Medium"
 
 }
 
@@ -46,6 +46,11 @@ extension Font {
     static func poppinsThinFont(size: CGFloat) -> Font {
         return Font.custom(Font.PoppinsFontThin, size: size)
     }
+    
+    static func interFontMedium(size: CGFloat) -> Font {
+        return Font.custom(Font.InterFontMedium, size: size)
+    }
+    
 }
     
     
