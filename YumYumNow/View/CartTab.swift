@@ -96,6 +96,7 @@ struct CartTab: View {
 
                    
             }
+            .padding(.bottom,12)
            
         }
         .frame(width: UIScreen.main.bounds.width)
@@ -193,7 +194,7 @@ struct AddedItem: View {
                 )
                 .padding(.trailing,20)
             
-            VStack(spacing:12) {
+            VStack(alignment: .leading, spacing:12) {
                 Text(item.foodName)
                     .font(.poppinsMediumFont(size: 16))
                     .foregroundColor(.black303030)
@@ -203,6 +204,7 @@ struct AddedItem: View {
                 
                 quantityOfAddedItem()
             }
+            
             
             Spacer()
             
