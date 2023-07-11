@@ -36,6 +36,10 @@ extension Color {
     static let neutralRadient2 = Color(0xEFEEEE)
     static let yellowTextC9AA05 = Color(0xC9AA05)
     static let grayText868585 = Color(0x868585)
+    static let grayText595959 = Color(0x595959)
+    static let black373737 = Color(0x373737)
+
+
 
 
 }

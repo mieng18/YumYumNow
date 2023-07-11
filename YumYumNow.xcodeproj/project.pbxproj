@@ -28,6 +28,10 @@
 		CABFE8542A5B969900FA80EE /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CABFE84E2A5B969900FA80EE /* Poppins-Regular.ttf */; };
 		CABFE8552A5B969900FA80EE /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CABFE84F2A5B969900FA80EE /* Poppins-Light.ttf */; };
 		CABFE8562A5B969900FA80EE /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CABFE8502A5B969900FA80EE /* Poppins-Thin.ttf */; };
+		CAD6B6872A5CC9FE00B5321D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD6B6862A5CC9FE00B5321D /* DetailView.swift */; };
+		CAD6B6892A5CCC3500B5321D /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD6B6882A5CCC3500B5321D /* Food.swift */; };
+		CAD6B68B2A5CCED700B5321D /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD6B68A2A5CCED700B5321D /* CustomCorner.swift */; };
+		CAD6B68D2A5CCF1F00B5321D /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD6B68C2A5CCF1F00B5321D /* View+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +77,10 @@
 		CABFE84E2A5B969900FA80EE /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		CABFE84F2A5B969900FA80EE /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
 		CABFE8502A5B969900FA80EE /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		CAD6B6862A5CC9FE00B5321D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CAD6B6882A5CCC3500B5321D /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		CAD6B68A2A5CCED700B5321D /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
+		CAD6B68C2A5CCF1F00B5321D /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +184,8 @@
 				CABFE83B2A5B87CE00FA80EE /* CartTab.swift */,
 				CABFE83D2A5B87D600FA80EE /* ProfileTab.swift */,
 				CABFE8422A5B8D1B00FA80EE /* SplashScreen.swift */,
+				CAD6B6862A5CC9FE00B5321D /* DetailView.swift */,
+				CAD6B68A2A5CCED700B5321D /* CustomCorner.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -183,6 +193,7 @@
 		CABFE82F2A5B856E00FA80EE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CAD6B6882A5CCC3500B5321D /* Food.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -199,6 +210,7 @@
 			children = (
 				CABFE8402A5B88D100FA80EE /* Color+Extensions.swift */,
 				CABFE8472A5B917300FA80EE /* Font+Extensions.swift */,
+				CAD6B68C2A5CCF1F00B5321D /* View+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -341,11 +353,15 @@
 			files = (
 				CABFE8432A5B8D1B00FA80EE /* SplashScreen.swift in Sources */,
 				CABFE8372A5B87A600FA80EE /* HomeTab.swift in Sources */,
+				CAD6B68B2A5CCED700B5321D /* CustomCorner.swift in Sources */,
 				CABFE8482A5B917300FA80EE /* Font+Extensions.swift in Sources */,
 				CABFE8072A5B856000FA80EE /* ContentView.swift in Sources */,
 				CABFE8352A5B879600FA80EE /* TabBarView.swift in Sources */,
+				CAD6B6892A5CCC3500B5321D /* Food.swift in Sources */,
+				CAD6B6872A5CC9FE00B5321D /* DetailView.swift in Sources */,
 				CABFE8412A5B88D200FA80EE /* Color+Extensions.swift in Sources */,
 				CABFE83E2A5B87D600FA80EE /* ProfileTab.swift in Sources */,
+				CAD6B68D2A5CCF1F00B5321D /* View+Extensions.swift in Sources */,
 				CABFE8392A5B87AF00FA80EE /* SearchTab.swift in Sources */,
 				CABFE8052A5B856000FA80EE /* YumYumNowApp.swift in Sources */,
 				CABFE83C2A5B87CE00FA80EE /* CartTab.swift in Sources */,
